@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog Entry Form</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+  </head>
+  <body id="form">
+    <h2>New Blog Entry</h2>
+    <div class="form" id="myForm">
+      <form class="" action="index.html" method="post">
+        <label for="title">Blog Title</label><br><br>
+        <input type="text" id="title"><br><br>
+        <label for="date">Date Entry</label><br><br>
+        <input type="text" id="date" name="" value=""><br><br>
+        <label for="entry">Blog Entry</label><br><br>
+        <textarea name="name" id="entry" rows="8" cols="80"></textarea><br><br>
+        <button type="submit" id="btn" name="button">Submit</button><br><br>
+        <a id="btn" href="blog.html">Exit</a>
+      </form>
+    </div>
+    <div id="new">
+
+    </div>
+  </body>
+  <script>
+    const myForm = document.getElementById("myForm");
+
+    myForm.addEventListener("submit", (e) =>{
+      e.preventDefault();
+
+      console.log("form submitted");
+    });
+  </script>
+</html>
