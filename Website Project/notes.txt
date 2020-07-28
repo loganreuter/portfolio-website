@@ -1,0 +1,8 @@
+color palette:
+#0B0C10 //black
+#1F2833 //dark blue
+#C5C6C7 //light grey
+#66FCF1 //light blue
+#45A29E //green-blue
+#ffffff //white
+#282828 //charcoal grey
